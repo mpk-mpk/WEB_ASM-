@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cua Cà Mau chính gốc rừng đước Năm Căn, giao tận nhà toàn quốc.">
+  <title>Đặt hàng | Cua Đất Mũi</title>
+  <link rel="icon" href="images/logo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header">
+    <div class="khung">
+      <a href="trang-chu.html" class="logo"><img src="images/logo.png" alt="Logo Cua Cà Mau">Cua <span>Đất Mũi</span></a>
+      <nav class="menu">
+        <span class="nut-menu">&#9776;</span>
+        <ul>
+          <li><a href="trang-chu.html">Trang chủ</a></li>
+          <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+          <li><a href="san-pham.html">Sản phẩm</a></li>
+          <li><a href="dich-vu.html">Dịch vụ</a></li>
+          <li><a href="lien-he.html">Liên hệ</a></li>
+          <li><a href="dat-hang.html" class="nut-dat">Đặt hàng</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="dau-trang">
+    <h1>Đặt cua online</h1>
+    <p class="duong-dan"><a href="trang-chu.html">Trang chủ</a> &rsaquo; Đặt hàng</p>
+  </section>
+
+  <section>
+    <div class="khung">
+      <div class="tieu-de">
+        <span class="chu-tay">Giá tuần này</span>
+        <h2>Bảng giá cua</h2>
+      </div>
+      <table class="bang">
+        <thead>
+          <tr><th>Loại cua</th><th>Size</th><th>Ghi chú</th><th>Giá</th></tr>
+        </thead>
+        <tbody>
+              <tr><td rowspan="3"><a href="cua-gach.html"><strong>Cua Gạch Son</strong></a></td><td>2 con/kg</td><td>Size VIP</td><td class="gia-o">750.000đ</td></tr>
+              <tr><td>3 con/kg</td><td>Size lớn</td><td class="gia-o">650.000đ</td></tr>
+              <tr><td>4 con/kg</td><td>Size vừa</td><td class="gia-o">560.000đ</td></tr>
+              <tr><td rowspan="3"><a href="cua-thit.html"><strong>Cua Thịt Buộc Dây</strong></a></td><td>2 con/kg</td><td>Size VIP</td><td class="gia-o">600.000đ</td></tr>
+              <tr><td>3 con/kg</td><td>Size lớn</td><td class="gia-o">520.000đ</td></tr>
+              <tr><td>4 con/kg</td><td>Size vừa</td><td class="gia-o">450.000đ</td></tr>
+              <tr><td rowspan="2"><a href="cua-y.html"><strong>Cua Y Gạch Tràn</strong></a></td><td>2 con/kg</td><td>Size VIP</td><td class="gia-o">950.000đ</td></tr>
+              <tr><td>3 con/kg</td><td>Size lớn</td><td class="gia-o">850.000đ</td></tr>
+              <tr><td rowspan="2"><a href="combo-qua-bieu.html"><strong>Combo Quà Biếu</strong></a></td><td>Combo 2kg</td><td>Cua gạch + cua thịt</td><td class="gia-o">1.290.000đ</td></tr>
+              <tr><td>Combo 3kg</td><td>Thêm 1kg cua y</td><td class="gia-o">2.090.000đ</td></tr>
+        </tbody>
+        <tfoot>
+          <tr><td colspan="4">* Giá tính theo kg (combo tính theo hộp). Phí hấp sẵn: 30.000đ/kg. Gói quà: 50.000đ/hộp.</td></tr>
+        </tfoot>
+      </table>
+
+      <div class="dat-hang-luoi" style="margin-top: 60px;">
+        <form class="form" action="#" method="post">
+          <h3>Thông tin đặt hàng</h3>
+
+          <fieldset>
+            <legend>1. Người nhận</legend>
+            <div class="hang">
+              <div class="o-nhap">
+                <label for="ho-ten">Họ tên <span class="bat-buoc">*</span></label>
+                <input type="text" id="ho-ten" name="ho-ten" placeholder="Nguyễn Văn A" required>
+              </div>
+              <div class="o-nhap">
+                <label for="dien-thoai">Số điện thoại <span class="bat-buoc">*</span></label>
+                <input type="tel" id="dien-thoai" name="dien-thoai" placeholder="09xx xxx xxx" pattern="[0-9]{10}" title="Nhập đủ 10 số" required>
+              </div>
+            </div>
+            <div class="o-nhap">
+              <label for="dia-chi">Địa chỉ nhận hàng <span class="bat-buoc">*</span></label>
+              <input type="text" id="dia-chi" name="dia-chi" placeholder="Số nhà, đường, phường/xã, tỉnh/thành" required>
+            </div>
+            <div class="hang">
+              <div class="o-nhap">
+                <label for="tinh">Tỉnh / thành</label>
+                <select id="tinh" name="tinh">
+                  <option>Cà Mau</option>
+                  <option>TP. Hồ Chí Minh</option>
+                  <option>Hà Nội</option>
+                  <option>Cần Thơ</option>
+                  <option>Đà Nẵng</option>
+                  <option>Tỉnh thành khác</option>
+                </select>
+              </div>
+              <div class="o-nhap">
+                <label for="ngay-nhan">Ngày muốn nhận</label>
+                <input type="date" id="ngay-nhan" name="ngay-nhan">
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>2. Chọn cua</legend>
+              <label class="lua-chon"><input type="radio" name="loai" value="cua-gach" checked> Cua Gạch Son</label>
+              <label class="lua-chon"><input type="radio" name="loai" value="cua-thit"> Cua Thịt Buộc Dây</label>
+              <label class="lua-chon"><input type="radio" name="loai" value="cua-y"> Cua Y Gạch Tràn</label>
+              <label class="lua-chon"><input type="radio" name="loai" value="combo-qua-bieu"> Combo Quà Biếu</label>
+            <div class="hang" style="margin-top: 10px;">
+              <div class="o-nhap">
+                <label for="size-dh">Size</label>
+                <select id="size-dh" name="size">
+                  <option>2 con/kg (VIP)</option>
+                  <option selected>3 con/kg (lớn)</option>
+                  <option>4 con/kg (vừa)</option>
+                </select>
+              </div>
+              <div class="o-nhap">
+                <label for="kg">Số kg / số hộp <span class="bat-buoc">*</span></label>
+                <input type="number" id="kg" name="kg" min="1" max="50" value="1" required>
+                <p class="goi-y">Tối thiểu 1kg, tối đa 50kg mỗi đơn.</p>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>3. Dịch vụ thêm</legend>
+            <label class="lua-chon"><input type="checkbox" name="them" value="hap"> Hấp sẵn (+30.000đ/kg)</label>
+            <label class="lua-chon"><input type="checkbox" name="them" value="qua"> Gói hộp quà (+50.000đ)</label>
+            <label class="lua-chon"><input type="checkbox" name="them" value="muoi"> Kèm muối tiêu chanh</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>4. Thanh toán</legend>
+            <label class="lua-chon"><input type="radio" name="thanh-toan" value="cod" checked> Trả tiền khi nhận hàng</label>
+            <label class="lua-chon"><input type="radio" name="thanh-toan" value="ck"> Chuyển khoản</label>
+          </fieldset>
+
+          <div class="o-nhap">
+            <label for="ghi-chu">Ghi chú</label>
+            <textarea id="ghi-chu" name="ghi-chu" rows="3" placeholder="Ví dụ: giao giờ hành chính, gọi trước 15 phút..."></textarea>
+          </div>
+
+          <div class="nhom-nut">
+            <button type="submit" class="nut-gui">Gửi đơn hàng</button>
+            <button type="reset" class="nut-xoa">Nhập lại</button>
+          </div>
+        </form>
+
+        <aside class="ghi-chu-dh">
+          <h3>Đặt hàng thế nào?</h3>
+          <ol>
+            <li>Điền thông tin và gửi đơn.</li>
+            <li>Vựa gọi xác nhận trong 15 phút.</li>
+            <li>Cua được bắt, buộc dây và đóng thùng.</li>
+            <li>Giao tới nhà, kiểm tra cua rồi mới trả tiền.</li>
+          </ol>
+          <p style="margin-top: 16px;">Cần gấp? Gọi ngay <a href="tel:0909123456" style="color: var(--vang); font-weight: 700;">0909 123 456</a></p>
+          <img src="images/dong-thung.jpg" alt="Cua đóng thùng giữ lạnh" style="margin-top: 20px; border-radius: 12px;">
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="khung footer-luoi">
+      <div>
+        <h4>Cua Đất Mũi</h4>
+        <p>Cua Cà Mau chính gốc, bắt từ rừng đước Năm Căn và giao tận nhà trong 24&ndash;48 giờ. Cam kết cua sống, đổi trả nếu cua chết khi nhận.</p>
+        <p style="margin-top: 14px;">
+          <a href="https://www.facebook.com" target="_blank" class="icon-xh" title="Facebook">f</a>
+          <a href="https://www.youtube.com" target="_blank" class="icon-xh" title="YouTube">&#9654;</a>
+          <a href="https://www.tiktok.com" target="_blank" class="icon-xh" title="TikTok">&#9835;</a>
+          <a href="https://zalo.me" target="_blank" class="icon-xh" title="Zalo">Z</a>
+        </p>
+      </div>
+      <div>
+        <h4>Khám phá</h4>
+        <ul>
+          <li><a href="trang-chu.html">Trang chủ</a></li>
+          <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+          <li><a href="san-pham.html">Sản phẩm</a></li>
+          <li><a href="dich-vu.html">Dịch vụ</a></li>
+          <li><a href="lien-he.html">Liên hệ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Sản phẩm</h4>
+        <ul>
+          <li><a href="cua-gach.html">Cua gạch son</a></li>
+          <li><a href="cua-thit.html">Cua thịt buộc dây</a></li>
+          <li><a href="cua-y.html">Cua y gạch tràn</a></li>
+          <li><a href="combo-qua-bieu.html">Combo quà biếu</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Liên hệ</h4>
+        <ul>
+          <li>Khóm 2, TT. Năm Căn, Cà Mau</li>
+          <li><a href="tel:0909123456">0909 123 456</a></li>
+          <li><a href="mailto:cuadatmui@gmail.com">cuadatmui@gmail.com</a></li>
+          <li>Mở cửa: 6:00 &ndash; 21:00 mỗi ngày</li>
+        </ul>
+      </div>
+    </div>
+    <p class="ban-quyen">&copy; 2026 Cua Đất Mũi &ndash; Assignment môn Xây dựng trang web</p>
+  </footer>
+
+  <!-- Nút chat nổi. Có thể thay bằng mã chatbox (Tawk.to, Messenger...) đã học ở bài 7.1 -->
+  <a href="https://zalo.me/0909123456" target="_blank" class="nut-chat">&#128172; </a>
+
+</body>
+</html>
